@@ -1,0 +1,98 @@
+#! /usr/bin/env python 
+#_*_ coding: utf8 _*_ 
+
+# Las dos primera lineas definen el interprete y la codificacion 
+
+''' Mi script '''
+
+# Este es un comentario 
+
+'''Este tambien '''
+
+'''
+    @author Juan Romero
+    @Version 1.0
+    @license GPL 3.0 
+
+    Twitter : @jfromero88
+    Youtube : Hack Rock 
+
+    [Disclaimer]
+            Este escript tiene la funcion de...
+    [/Disclaimer]
+
+'''
+
+import pyfiglet # Para imprimir un banner, este tambien es una forma de comentar
+from pyfiglet import Figlet
+
+banner = Figlet (font='banner3-D')
+
+'''
+print ("\n Este escript tiene la funcion de...\n") # Imprimir 
+print(banner.renderText('HACK ROCK'))
+'''
+# clase 1  Tipos de Datos
+'''
+
+a = ("Esto es un string") #Tipo cadena o string | Asi se declaran las variables sin necesidad de definir el tipo de variable 
+
+b= int(2) # Tipo entero
+
+c= 2.5 # Tipo Flotante 
+
+d = True # Tipo booleano
+
+
+print (a) #imprimir el valor de cada variable
+print (b)
+print (c)
+print (d)
+
+
+print ("\n\n Tipos de variables")
+
+print(type (a))
+print(type (b))
+print(type (c))
+print(type (d))
+
+'''
+ #type permite imprimir el tipo de variable 
+
+ # Vamos a imprimir este resultado...
+
+
+# Clase 2 listas 
+
+print ("Hola Mundo")
+
+print ("\nBienvenido al curos de Python")
+
+print ("Enumerar listas= \n")
+
+
+
+lista1= [0,1,2,3,4] # Esta es un declaracion de lista usando 
+
+print("El resultado de la lista= \n",lista1)
+
+print("Imprimir de la lista un solo valor= ",lista1[-2]) # -1 indica el ultimo valor de la lista de derecha a izquierda
+
+resultado= len(lista1) # Len permite contar la cantidad de datos dentro de la lista
+
+print("suma de valores dentro de una lista con len= \n",resultado)
+
+# Imprimimos la lista1 
+
+# [ctrl] + [s] para guardar los cambios
+
+# Sustituye el valor en la posicion numero 4 de la lista. 
+
+lista1[4] = "5"
+
+# Hasta aqui la primera clase y parte de la segunda.. parte 2 proximamente 
+
+# SALUDOS 
+
+print(lista1)
